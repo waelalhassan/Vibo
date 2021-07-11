@@ -104,12 +104,15 @@ header .backInCenter {
 }
 .sec-1 .sec-one .sect-one-col-one img {
   display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .sec-1 .sec-one .sect-one-col-two {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "c-1 c-1 . ." "c-1 c-1 c-2 c-2" ". . c-2 c-2" "c-3 c-3 . ." "c-3 c-3 c-4 c-4" ". . c-4 c-4";
+  width: 60%;
 }
 .sec-1 .sec-one .sect-one-col-two .card {
   width: 300px;
@@ -126,17 +129,90 @@ header .backInCenter {
 }
 .sec-1 .sec-one .sect-one-col-two .card:nth-of-type(1) {
   grid-area: c-1;
-  margin-left: 120px;
+  margin-left: 112px;
 }
 .sec-1 .sec-one .sect-one-col-two .card:nth-of-type(2) {
   grid-area: c-2;
-  margin-left: 70px;
+  margin-left: 150px;
 }
 .sec-1 .sec-one .sect-one-col-two .card:nth-of-type(3) {
   grid-area: c-3;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 .sec-1 .sec-one .sect-one-col-two .card:nth-of-type(4) {
   grid-area: c-4;
-  margin-left: 15px;
+  margin-left: 80px;
+}
+
+.sec-2 {
+  background-color: #FFF;
+  padding: 150px 0;
+}
+.sec-2 .sec-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sec-2 .sec-two .sect-two-col-one h2 {
+  font-weight: bold;
+}
+.sec-2 .sec-two .sect-two-col-one p {
+  font-size: 0.9rem;
+  margin: 30px 0;
+  width: 500px;
+}
+.sec-2 .sec-two .sect-two-col-one .btn-download {
+  display: inline-block;
+  padding: 7px 17px;
+  background-color: #33d2fd;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion {
+  margin: 0;
+  list-style: none;
+  width: 500px;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion .ac-item {
+  background-color: #FFF;
+  padding: 10px;
+  box-shadow: 0px 4px 6px 0px #f1f1f1;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion .ac-item img {
+  display: inline-block;
+  width: 19px;
+  height: auto;
+  vertical-align: text-top;
+  margin-left: 18px;
+  margin-right: 15px;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion .item {
+  background-color: #33d2fd;
+  box-shadow: 0px 4px 4px 0px #f1f1f1;
+  color: #FFF;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion .item .ac-i-col-one {
+  display: block;
+  width: 15px;
+  margin: 20px 20px 20px 30px;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion .item .ac-i-col-two h4 {
+  margin-top: 24px;
+}
+.sec-2 .sec-two .sect-two-col-two .accordion .item .ac-i-col-two p {
+  margin: 10px 0 24px 0;
+  font-size: 0.8rem;
+  line-height: 25px;
+  width: 80%;
 }
