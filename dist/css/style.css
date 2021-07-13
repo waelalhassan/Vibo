@@ -95,7 +95,7 @@ header .backInCenter {
 
 .sec-1 {
   background-color: #fafafc;
-  padding: 150px 0;
+  padding: 150px 0 100px 0;
 }
 .sec-1 .sec-one {
   display: flex;
@@ -146,7 +146,7 @@ header .backInCenter {
 
 .sec-2 {
   background-color: #FFF;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .sec-2 .sec-two {
   display: flex;
@@ -154,13 +154,12 @@ header .backInCenter {
   align-items: center;
   width: 100%;
 }
-.sec-2 .sec-two .sect-two-col-one h2 {
-  font-weight: bold;
-}
 .sec-2 .sec-two .sect-two-col-one p {
   font-size: 0.9rem;
   margin: 30px 0;
   width: 500px;
+  line-height: 30px;
+  color: #6a6d89;
 }
 .sec-2 .sec-two .sect-two-col-one .btn-download {
   display: inline-block;
@@ -215,4 +214,79 @@ header .backInCenter {
   font-size: 0.8rem;
   line-height: 25px;
   width: 80%;
+}
+
+.sec-3 {
+  background-color: #fafafc;
+  padding: 100px 0;
+}
+.sec-3 .sec-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-3 .sec-three .sect-three-col-one img {
+  display: block;
+  margin: 0 auto;
+}
+.sec-3 .sec-three .sect-three-col-tow {
+  margin-left: 100px;
+}
+.sec-3 .sec-three .sect-three-col-tow ul {
+  margin: 30px 0;
+  list-style-type: none;
+}
+.sec-3 .sec-three .sect-three-col-tow ul li {
+  margin: 20px 0;
+  font-weight: bold;
+}
+.sec-3 .sec-three .sect-three-col-tow ul li img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #33d2fd;
+  margin-right: 10px;
+}
+.sec-3 .sec-three .sect-three-col-tow p {
+  line-height: 30px;
+  width: 480px;
+  color: #6a6d89;
+  font-size: 0.9rem;
+}
+
+.sec-4 {
+  padding: 100px 0;
+  background: url("../images/Vector-Bg.png") no-repeat top;
+}
+.sec-4 .sec-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-4 .sec-four .sect-four-col-one img {
+  display: block;
+  margin: 0 auto;
+}
+.sec-4 .sec-four .sect-four-col-tow {
+  margin-left: 100px;
+}
+.sec-4 .sec-four .sect-four-col-tow p {
+  width: 465px;
+  margin: 20px 0;
+  color: #FFF;
+  line-height: 30px;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.sec-4 .sec-four .sect-four-col-tow .sec-four-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+}
+footer {
+  padding: 100px 0;
 }

@@ -100,7 +100,7 @@ header {
 
 .sec-1 {
     background-color: #fafafc;
-    padding: 150px 0;
+    padding: 150px 0 100px 0;
     .sec-one {
         display: flex;
         justify-content: center;
@@ -159,20 +159,19 @@ header {
 
 .sec-2 {
     background-color: #FFF;
-    padding: 150px 0;
+    padding: 100px 0;
     .sec-two {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         .sect-two-col-one {
-            h2 {
-                font-weight: bold;
-            }
             p {
                 font-size: 0.9rem;
                 margin: 30px 0;
                 width: 500px;
+                line-height: 30px;
+                color: #6a6d89;
             }
             .btn-download {
                 display: inline-block;
@@ -239,3 +238,137 @@ header {
     }
 }
 
+.sec-3 {
+    background-color: #fafafc;
+    padding: 100px 0;
+    .sec-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .sect-three-col-one {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .sect-three-col-tow {
+            margin-left: 100px;
+            ul {
+                margin: 30px 0;
+                list-style-type: none;
+                li {
+                    margin: 20px 0;
+                    font-weight: bold;
+                    img {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        vertical-align: sub;
+                        border-radius: 50%;
+                        padding: 5px;
+                        background-color: #33d2fd;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            p {
+                line-height: 30px;
+                width: 480px;
+                color: #6a6d89;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+.sec-4 {
+    padding: 100px 0;
+    background: url("../images/Vector-Bg.png") no-repeat top;
+    .sec-four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .sect-four-col-one {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .sect-four-col-tow {
+            margin-left: 100px;
+            p {
+                width: 465px;
+                margin: 20px 0;
+                color: #FFF;
+                line-height: 30px;
+                font-size: 1rem;
+                font-weight: 200;
+            }
+            .sec-four-links {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 82%;
+                a {
+                    img {
+                        
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+footer {
+    padding: 100px 0;
+    .footer {
+        .footer-c-one {
+            .footer-col {
+                h4 {
+
+                }
+                ul {
+                    li {
+                        a {
+
+                        }
+                    }
+                }
+            }
+        }
+        .footer-c-two {
+            h3 {
+
+            }
+            p {
+
+            }
+            .subscrip {
+                input[type="text"] {
+
+                }
+                input[type="submit"] {
+
+                }
+
+            }
+        }
+    }
+    .copyright {
+        .copyright-col-one {
+            p {
+
+            }
+        }
+        .copyright-col-two {
+            ul {
+                li {
+                    a {
+                        
+                    }
+                }
+            }
+        }
+    }
+}
