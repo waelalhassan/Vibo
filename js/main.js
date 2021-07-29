@@ -1,0 +1,1 @@
+!function(){"use strict";var t;for(t of document.getElementsByClassName("ac-item"))t.addEventListener("click",function(){let t=this.nextElementSibling;t.classList.toggle("ac-active"),t.style.maxHeight?t.style.maxHeight=null:t.style.maxHeight=`${t.scrollHeight+20}px`})}();
