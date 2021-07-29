@@ -1,9 +1,8 @@
 (function() {
     "use strict";
     
-    //* start accordion for section 2
+    //* start accordion in section 2
     let accordion = document.getElementsByClassName("ac-item");
-
 
     for (let element of accordion) {
         element.addEventListener("click", function() {
@@ -17,6 +16,11 @@
             }
         })
     }
+
+    //* start mobile menu in nav
+
+
+
 
 
 }()) // END
